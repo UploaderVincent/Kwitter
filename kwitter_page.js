@@ -57,7 +57,7 @@ function logout() {
 }
 
 function updateLike(message_id){
-button_id = messgae_id;
+button_id = message_id;
 likes = document.getElementById(button_id).value;
 updated_likes = Number(likes) + 1;
 console.log(updated_likes);
